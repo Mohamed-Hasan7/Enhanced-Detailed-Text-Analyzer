@@ -44,9 +44,8 @@ You can install these dependencies using pip along with the provided `requiremen
 
 ### Running the Application
 To launch the application, run:
-
-
 ```python main.py```
+
 ### Usage
 Comparative Analysis Mode
 Switch to the Comparative Analysis tab.
