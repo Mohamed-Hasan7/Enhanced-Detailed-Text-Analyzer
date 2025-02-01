@@ -46,7 +46,6 @@ You can install these dependencies using pip along with the provided `requiremen
 To launch the application, run:
 
 
-```Copy```
 ```python main.py```
 ### Usage
 Comparative Analysis Mode
