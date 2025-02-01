@@ -38,6 +38,41 @@ The application requires the following Python packages:
 
 You can install these dependencies using pip along with the provided `requirements.txt` file:
 
-```bash
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
+```pip install -r requirements.txt ```
+```python -m spacy download en_core_web_sm```
+
+
+### Running the Application
+To launch the application, run:
+
+
+```Copy```
+```python main.py```
+### Usage
+Comparative Analysis Mode
+Switch to the Comparative Analysis tab.
+Enter your first text in the left text box and the second text in the right text box.
+Click the "Compare Analysis" button.
+A new report window will display the detailed side-by-side analysis.
+Single Text Analysis Mode
+Switch to the Single Text Analysis tab.
+Paste or type the text you wish to analyze in the large text box.
+Click the "Analyze Text" button.
+A new report window will display the detailed analysis of your text.
+Additional Controls
+Save Report: Click the "Save Report" button (located in the bottom control frame) to save the current report as a text file.
+Copy Report: Use the "Copy Report" button to copy the report to your clipboard.
+Reset: The "Reset" button clears all input fields.
+Toggle Dark/Light Mode: Use the "Toggle Dark/Light" button to switch the appearance of the application.
+Contributing
+Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to modify.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Acknowledgements
+CustomTkinter for the modern UI components.
+spaCy for natural language processing.
+VADER Sentiment for sentiment analysis.
+Pyperclip for clipboard functionality.
+Special thanks to all contributors and users for their feedback and support.
